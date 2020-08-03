@@ -1,0 +1,29 @@
+ul{
+    list-style: none;
+}
+ul li div{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    line-height: 50px;
+}
+#addtask{
+    position: absolute;
+    margin-top: -350px;
+    display: none;
+    z-index: 2;
+
+}
+#viewtask{
+    position: absolute;
+    margin-top: -350px;
+    display: none;
+    z-index: 2;
+}
+#main{
+    margin-top: 200px;
+}
+.marginclass{
+    text-decoration: line-through;
+}
